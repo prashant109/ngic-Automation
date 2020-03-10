@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SeleniumCoreABC"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/appium/java-client-7.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/azure-storage-blob-10.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/client-runtime-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-annotations-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-core-2.8.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-databind-2.8.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-dataformat-xml-2.8.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-datatype-jsr310-2.8.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/jackson-module-jaxb-annotations-2.8.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-buffer-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-codec-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-codec-http-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-codec-socks-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-common-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-handler-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-handler-proxy-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-resolver-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/netty-transport-4.1.28.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/reactive-streams-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/rxjava-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/stax2-api-3.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/azure-storage/woodstox-core-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/extent-report/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/extent-report/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/gmail-api/java-gmail-imap-1.4.4-gm-ext-0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/mssql-jdbc-6.4.0.jre9.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/miscellaneous/pdfbox-app-2.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/nada-email-service/httpasyncclient-4.0-beta4.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/nada-email-service/json-20180813.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/nada-email-service/unirest-java-1.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/poi-api/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/poi-api/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/poi-api/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/poi-api/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/poi-api/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/groovy-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/groovy-json-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/groovy-xml-2.4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/httpcore-nio-4.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/httpmime-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/jaxb-api-2.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/rest-assured-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/rest-assured/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/selenium/ngwebdriver-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/selenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/testng/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/testng/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/slf4j-simple-1.7.26.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/webdrivermanager-3.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Workspace/QA/QA-Automation-master/lib/webdriver-manager/webdrivermanager-3.7.1-fat.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
