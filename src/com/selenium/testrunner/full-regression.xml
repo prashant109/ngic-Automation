@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Full Regression" verbose="6" parallel="tests"
+	thread-count="3">
+
+	<suite-files>
+		<suite-file
+			path="src/com/selenium/testrunner/providerportal-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/adminportal-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/purchaseportal-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/memberportal-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/miscellaneous-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/achtopractice-regression.xml"></suite-file>
+		<suite-file
+			path="src/com/selenium/testrunner/customerserviceportal-regression.xml"></suite-file>
+	</suite-files>
+
+</suite>

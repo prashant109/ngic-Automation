@@ -1,0 +1,310 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IE Tests" verbose="3" parallel="tests"
+	thread-count="1">
+
+	<!-- ===========================Purchase Portal============================= -->
+
+	<!-- PurchasePortal.JAVA -->
+	<test
+		name="test01_purchase_Two_Individual_MSDP_Plans_And_Approve_Now">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include
+						name="test01_purchase_Two_Individual_MSDP_Plans_And_Approve_Now" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_verifyTermsOfServiceLink_footer">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test08_verifyTermsOfServiceLink_footer" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ===========================Provider Portal============================= -->
+	<!-- Provide.JAVA -->
+
+	<test name="test02_E2E_Treatment_02_Approve_Via_Send_To_Member">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test02_E2E_Treatment_02_Approve_Via_Send_To_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="test03_E2E_Treatment_03_Approve_Via_Sms">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test03_E2E_Treatment_03_Approve_Via_Sms" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test05_verifyPrivacyPolicyLatestReviseDate_10053">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test05_verifyPrivacyPolicyLatestReviseDate_10053" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- Approve Treatment.JAVA -->
+	<test name="test05_approveTreatmentUsingMultipleCards">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test05_approveTreatmentUsingMultipleCards" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_approveTreatment_paidOutSideWellfit">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test03_approveTreatment_paidOutSideWellfit" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!--TreatmentPlan.JAVA -->
+	<test name="test02_cancel_Treatment_Plan">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include name="test02_cancel_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!--MinorDependent.JAVA -->
+	<test
+		name="test01_create_A_Plan_To_Minor_Dependent_Via_Send_To_Member">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include
+						name="test01_create_A_Plan_To_Minor_Dependent_Via_Send_To_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!--DuplicateUser.JAVA -->
+	<test name="test01_createNewUserWhenSimilarUserDisplayed">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.DuplicateUser">
+				<methods>
+					<include
+						name="test01_createNewUserWhenSimilarUserDisplayed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!--ToothChart.JAVA -->
+	<test name="test01_verify_Tooth_From_The_Chart">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ToothChart">
+				<methods>
+					<include name="test01_verify_Tooth_From_The_Chart" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ===========================Member Portal============================= -->
+	<!-- Activate.JAVA -->
+	<test
+		name="test11_activate_inActive_dependent_after_providerPortal_In_Chair_Flow">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test11_activate_inActive_dependent_after_providerPortal_In_Chair_Flow" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- MemberPortalTreatment.JAVA -->
+	<test name="test03_verify_External_Payment_On_Treatment_Plan">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalTreatment">
+				<methods>
+					<include
+						name="test03_verify_External_Payment_On_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- PaymentMethods.JAVA -->
+	<test
+		name="test01_verify_Add_And_Remove_All_Payment_Methods_From_Member_Portal">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.PaymentMethods">
+				<methods>
+					<include
+						name="test01_verify_Add_And_Remove_All_Payment_Methods_From_Member_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- MSDP_MemberIdCard.JAVA -->
+	<test name="test03_verifyMemberICard_familyPlan">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include name="test03_verifyMemberICard_familyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ApproveTreatment.JAVA -->
+	<test name="test02_addCardWhileApprovingTreatment">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.ApproveTreatment">
+				<methods>
+					<include name="test02_addCardWhileApprovingTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- RequestForgotPassword.JAVA -->
+	<test name="test01_complete_Forgot_Password">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.RequestForgotPassword">
+				<methods>
+					<include name="test01_complete_Forgot_Password" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ===========================GWC Portal============================= -->
+	<!-- GWCPortal.JAVA -->
+	<test name="test01_verifyPlanCost">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test01_verifyPlanCost" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_Invite_Friend">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test02_Invite_Friend" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verifyPrivacyPolicy">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test03_verifyPrivacyPolicy" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verifyTermsOfServiceLink_footer">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test04_verifyTermsOfServiceLink_footer" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ************************OnlineBillPay Portal ************************ -->
+	<!-- ***OnlineBillPay.JAVA scripts *** -->
+	<test name="test01_payOnline">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.onlinebillpay.OnlineBillPay">
+				<methods>
+					<include name="test01_payOnline" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verifyFooterLinks">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.onlinebillpay.OnlineBillPay">
+				<methods>
+					<include name="test02_verifyFooterLinks" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_payOnline_zeroDollar">
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.onlinebillpay.OnlineBillPay">
+				<methods>
+					<include name="test03_payOnline_zeroDollar" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

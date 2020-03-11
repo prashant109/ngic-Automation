@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Tests" verbose="2" parallel="tests"
+	thread-count="2">
+
+	<test
+		name="test01_Ipro_Epro_OES_1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.ipro.Ipro">
+				<methods>
+					<include
+						name="test01_Ipro_Epro_OES_1" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test01_Ipro_Epro_OES_2">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.ipro.Ipro">
+				<methods>
+					<include
+						name="test01_Ipro_Epro_OES_2" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

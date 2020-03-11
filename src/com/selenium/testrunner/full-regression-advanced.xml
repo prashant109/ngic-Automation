@@ -1,0 +1,2835 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Full Regression" verbose="6" parallel="tests"
+	thread-count="8">
+
+	<!-- *****************************ADMIN PORTAL SCRIPT START********************************************************* -->
+	<!-- *****Admin scripts ***** -->
+
+	<test name="test01_E2E_Admin_Refund_Transactions">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include name="test01_E2E_Admin_Refund_Transactions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_editUser">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include name="test02_editUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_verifyCardOnMySmileTransactionPage">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include name="test03_verifyCardOnMySmileTransactionPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test04_11631">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include name="test04_11631" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test05_verifyEmailUpdateInCSPWouldReflectInAdminAndMembersPortal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include
+						name="test05_verifyEmailUpdateInCSPWouldReflectInAdminAndMembersPortal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *******Eula scripts ***** -->
+	<test name="test01_uploadEulaFile">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Eula">
+				<methods>
+					<include name="test01_uploadEulaFile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Refund scripts **** -->
+	<test name="test01_refund_CDI_Transactions">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Refund">
+				<methods>
+					<include name="test01_refund_CDI_Transactions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****************************MEMBER PORTAL SCRIPT START********************************************************* -->
+	<!-- ******Activate User *** -->
+
+	<test name="test01_activate_inActive_msdpMember_via_cvv">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include name="test01_activate_inActive_msdpMember_via_cvv" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_activate_inActive_Msdp_member_via_SentToMember">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test02_activate_inActive_Msdp_member_via_SentToMember" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_activate_inActive_pdsMember_via_cvv">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include name="test03_activate_inActive_pdsMember_via_cvv" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_activate_inActive_pds_member_via_SentToMember">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test04_activate_inActive_pds_member_via_SentToMember" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test05_create_Msdp_User_Via_Admin_And_Activate">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test05_create_Msdp_User_Via_Admin_And_Activate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test06_create_PDS_User_Via_Admin_And_Activate">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test06_create_Wdc_User_Via_Admin_And_Activate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test07_create_Wdc_User_Via_Admin_And_Activate">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test07_create_Wdc_User_Via_Admin_And_Activate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_activate_inActive_wdcMember_via_cvv">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include name="test08_activate_inActive_wdcMember_via_cvv" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test09_activate_inActive_wdc_member_via_SentToMember">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test09_activate_inActive_wdc_member_via_SentToMember" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test10_activate_MSDP_User_After_Admin_CRUD">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include name="test10_activate_MSDP_User_After_Admin_CRUD" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test11_activate_inActive_dependent_after_providerPortal_In_Chair_Flow">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test11_activate_inActive_dependent_after_providerPortal_In_Chair_Flow" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test12_activate_Inactive_Dependent_After_Purchase_Portal_Flow">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.Activate">
+				<methods>
+					<include
+						name="test12_activate_Inactive_Dependent_After_Purchase_Portal_Flow" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *********Approve Treatment scripts **** -->
+	<!-- ***CHROME *** -->
+	<test
+		name="test01_takePartialDeposit_verifyRemainingShareInMemberPortal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test01_takePartialDeposit_verifyRemainingShareInMemberPortal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_addCardWhileApprovingTreatment">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.ApproveTreatment">
+				<methods>
+					<include name="test02_addCardWhileApprovingTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test03_createInChairTreatmentIncludingMSDP_verifyOrderSummary">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test03_createInChairTreatmentIncludingMSDP_verifyOrderSummary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ****Member Portal Treatment scripts ******** -->
+
+	<test name="test01_verifyTreatmentSummaryIncludes_PO_PD_EP">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalTreatment">
+				<methods>
+					<include
+						name="test01_verifyTreatmentSummaryIncludes_PO_PD_EP" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verify_Deposit_Payment_On_Treatment_Plan">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalTreatment">
+				<methods>
+					<include
+						name="test02_verify_Deposit_Payment_On_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_External_Payment_On_Treatment_Plan">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalTreatment">
+				<methods>
+					<include
+						name="test03_verify_External_Payment_On_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verify_No_Payment_On_Treatment_Plan">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalTreatment">
+				<methods>
+					<include name="test04_verify_No_Payment_On_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******PDF scripts ******** -->
+
+	<test name="Member PDF Tests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.PDF">
+			</class>
+		</classes>
+	</test>
+
+
+
+
+	<!-- ********ChangeUserName ******* -->
+
+	<test name="test01_complete_change_userName">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.ChangeUserName">
+				<methods>
+					<include name="test01_complete_change_userName" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="test02_declineChangeEmail">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.ChangeUserName">
+				<methods>
+					<include name="test02_declineChangeEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Payment Methods ****** -->
+	<test
+		name="test01_verify_Add_And_Remove_All_Payment_Methods_From_Member_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.PaymentMethods">
+				<methods>
+					<include
+						name="test01_verify_Add_And_Remove_All_Payment_Methods_From_Member_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verify_Add_Credit_Card_To_Account()">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.memberportal.PaymentMethods">
+				<methods>
+					<include name="test02_verify_Add_Credit_Card_To_Account()" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******Forgot Password Methods ******* -->
+	<test name="test01_complete_Forgot_Password">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.RequestForgotPassword">
+				<methods>
+					<include name="test01_complete_Forgot_Password" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *********MemberPortal Bugs scripts ********* -->
+	<test name="test01_cannotApproveTreatment_inActiveMember_9840">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test01_cannotApproveTreatment_inActiveMember_9840" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_cannotApproveZeroDollarWithoutCard_9091">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test02_cannotApproveZeroDollarWithoutCard_9091" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test03_verifyYouShareNotZeroOnTrreatmentSummaryPage_10404">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test03_verifyYouShareNotZeroOnTrreatmentSummaryPage_10404" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verifyAmountFieldTakesLessThanOneDollarAsInput">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test04_verifyAmountFieldTakesLessThanOneDollarAsInput" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test05_verifyAddPaymenthodMethodModal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include name="test05_verifyAddPaymenthodMethodModal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test06_depositAllAmount_approveTreatmentFromMemberPortal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test06_depositAllAmount_approveTreatmentFromMemberPortal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test07_planExpiresIn14Months_verifyRenewButtonNotDisplayed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include
+						name="test07_planExpiresIn14Months_verifyRenewButtonNotDisplayed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******MSDP Member Id Card scripts ******* -->
+	<test name="test01_verifyMemberICard_individualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include name="test01_verifyMemberICard_individualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verifyMemberICard_twoIndividualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include name="test02_verifyMemberICard_twoIndividualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verifyMemberICard_familyPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include name="test03_verifyMemberICard_familyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verify_dependentMemberIDCard_familyPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include
+						name="test04_verify_dependentMemberIDCard_familyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test05_verify_dependentMemberIDCard_twoIndividualsPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MSDP_MemberIdCard">
+				<methods>
+					<include
+						name="test05_verify_dependentMemberIDCard_twoIndividualsPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****************************PROVIDER PORTAL SCRIPT START********************************************************* -->
+
+	<!-- *****Add members In MSDP Plan ****** -->
+
+	<test name="test01_addMember_twoIndividualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.AddMembersInMSDPPlan">
+				<methods>
+					<include name="test01_addMember_twoIndividualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_addMember_familyPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.AddMembersInMSDPPlan">
+				<methods>
+					<include name="test02_addMember_familyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_addMember_individualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.AddMembersInMSDPPlan">
+				<methods>
+					<include name="test03_addMember_individualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****Add Provider ****** -->
+
+	<test name="test01_add_One_Provider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddProvider">
+				<methods>
+					<include name="test01_add_One_Provider" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_add_multiple_Provider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddProvider">
+				<methods>
+					<include name="test02_add_multiple_Provider" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_add_Pending_User">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddProvider">
+				<methods>
+					<include name="test03_add_Pending_User" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****Add User ****** -->
+
+	<test name="test01_add_User_Then_Sign_In_As_The_New_User">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddUser">
+				<methods>
+					<include
+						name="test01_add_User_Then_Sign_In_As_The_New_User" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="test02_user_Association_With_Multiple_Practices">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddUser">
+				<methods>
+					<include
+						name="test02_user_Association_With_Multiple_Practices" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_merge_Account_With_Provider_And_Member">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddUser">
+				<methods>
+					<include
+						name="test03_merge_Account_With_Provider_And_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test04_Edit_User_Profile">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AddUser">
+				<methods>
+					<include name="test04_Edit_User_Profile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******Approve Treatment scripts ******** -->
+	<test name="test01_approveTreatmentUsingMultipleCards">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test01_approveTreatmentUsingMultipleCards" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test02_approveTreatmentBySMSUsingMultiplePaymentOptions">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test02_approveTreatmentBySMSUsingMultiplePaymentOptions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_approveTreatment_paidOutSideWellfit">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test03_approveTreatment_paidOutSideWellfit" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test04_approveTreatment_existingMember_paidOutSideWellfit">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test04_approveTreatment_existingMember_paidOutSideWellfit" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test05_depositAllAmount_approveTreatment">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test05_depositAllAmount_approveTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test06_approveTreatment_10972">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include name="test06_approveTreatment_10972" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test07_partiallyCompleteTreatments_verifyTreatmentSummary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test07_partiallyCompleteTreatments_verifyTreatmentSummary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test08_partiallyCancelTreatment_verifyTreatmentSummary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test08_partiallyCancelTreatment_verifyTreatmentSummary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test09_cancelAllTreatments_verifyTreatmentSummary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ApproveTreatment">
+				<methods>
+					<include
+						name="test09_cancelAllTreatments_verifyTreatmentSummary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******Auto Email scripts ******** -->
+
+	<test
+		name="test01_sendTreatmentToMSDPMember_verifyTreatmentReadyForReviewEmail">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AutoEmail">
+				<methods>
+					<include
+						name="test01_sendTreatmentToMSDPMember_verifyTreatmentReadyForReviewEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test02_sendTreatmentToPDSMember_verifyTreatmentReadyForReviewEmail">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AutoEmail">
+				<methods>
+					<include
+						name="test02_sendTreatmentToPDSMember_verifyTreatmentReadyForReviewEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test03_addOffersAndMSDP_sendTreatmentToMember_verifyEmail">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AutoEmail">
+				<methods>
+					<include
+						name="test03_addOffersAndMSDP_sendTreatmentToMember_verifyEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test04_verifyWelcomeToMSDPEmail">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.AutoEmail">
+				<methods>
+					<include name="test04_verifyWelcomeToMSDPEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****Change Password ********* -->
+
+	<test name="test01_change_Password">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ChangePassword">
+				<methods>
+					<include name="test01_change_Password" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****Change Username ********* -->
+
+	<test name="test01_change_Username_accept">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ChangePassword">
+				<methods>
+					<include name="test01_change_Username_accept" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_change_Username_cancel">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ChangePassword">
+				<methods>
+					<include name="test02_change_Username_cancel" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****Check your rates ********* -->
+
+	<!-- <test name="test01_checkRatesForNewMember"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include name="test01_checkRatesForNewMember" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test02_checkRatesForExistingMember"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include name="test02_checkRatesForExistingMember" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test03_openTreatmentFinancingPageAndThenCancel"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test03_openTreatmentFinancingPageAndThenCancel" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test04_checkRatesForMinorUserFromAlabama"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include name="test04_checkRatesForMinorUserFromAlabama" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test05_checkRatesForMinorUserFromNebraska"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include name="test05_checkRatesForMinorUserFromNebraska" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test06_checkRatesForMinorUserFromCalifornia"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include name="test06_checkRatesForMinorUserFromCalifornia" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="test07_verifyErrorWhenInvalidDetailsProvided"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.CheckYourRates"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test07_verifyErrorWhenInvalidDetailsProvided" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- ********CustomCode ********** -->
+
+	<test name="test01_verify_Custom_Code_Is_Mapped_To_Cdt">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.CustomCode">
+				<methods>
+					<include name="test01_verify_Custom_Code_Is_Mapped_To_Cdt" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verify_add_edit_Custom_Code">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.CustomCode">
+				<methods>
+					<include name="test02_verify_add_edit_Custom_Code" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+	<!-- *******Duplicate User *********** -->
+	<test name="test01_createNewUserWhenSimilarUserDisplayed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.DuplicateUser">
+				<methods>
+					<include
+						name="test01_createNewUserWhenSimilarUserDisplayed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_selectFromExistingWhenSimilarUserDisplayed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.DuplicateUser">
+				<methods>
+					<include
+						name="test02_selectFromExistingWhenSimilarUserDisplayed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *******Edit Practice Profile ********* -->
+
+	<test name="test01_edit_Practice_Profile_From_Providers_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.EditPracticeProfile">
+				<methods>
+					<include
+						name="test01_edit_Practice_Profile_From_Providers_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *******Edit User scripts ******** -->
+	<test name="test01_editUser_Specialty">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.EditUser">
+				<methods>
+					<include name="test01_editUser_Specialty" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******Fee Schedule scripts ****** -->
+
+	<test name="test01_cancel_delete_fee_schedule">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.FeeSchedule">
+				<methods>
+					<include name="test01_cancel_delete_fee_schedule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_delete_unassigned_feeSchedule">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.FeeSchedule">
+				<methods>
+					<include name="test02_delete_unassigned_feeSchedule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_export_fee_schedule">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.FeeSchedule">
+				<methods>
+					<include name="test03_verify_export_fee_schedule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_import_Fee_Schedule_Prod">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.FeeSchedule">
+				<methods>
+					<include name="test04_import_Fee_Schedule_Prod" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******Forgot Password script ****** -->
+
+	<test name="test01_forgot_Password">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ForgotPassword">
+				<methods>
+					<include name="test01_forgot_Password" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_verifyUserMustExistErrorMessage()">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.ForgotPassword">
+				<methods>
+					<include name="test02_verifyUserMustExistErrorMessage()" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******Member ID Card script ****** -->
+
+	<test name="test01_verifyMemberICard_individualPlan_provider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.MemberIdCard">
+				<methods>
+					<include name="test01_verifyMemberICard_individualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_verifyMemberICard_twoIndividualPlan_provider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.MemberIdCard">
+				<methods>
+					<include name="test02_verifyMemberICard_twoIndividualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_verifyMemberICard_familyPlan_provider">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.MemberIdCard">
+				<methods>
+					<include name="test03_verifyMemberICard_familyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******Nevada Fee Schedule <test name="test01_verifyNavedaFeeSchedule"> 
+		<parameter name="browser" value="chrome"></parameter> <classes> <class name="com.selenium.web.test.providerportal.NevadaFeeSchedule"> 
+		<methods> <include name="test01_verifyNavedaFeeSchedule" /> </methods> </class> 
+		</classes> </test> ****** -->
+
+	<!-- ********************PDF **************************** -->
+
+	<test name="PDF Tests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.PDF">
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- **********Provider Scripts ******** -->
+
+	<test
+		name="test01_complete_MSDP_Plan_For_New_Member_Via_Sent_To_Member">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test01_complete_MSDP_Plan_For_New_Member_Via_Sent_To_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test
+		name="test02_E2E_Treatment_02_Approve_Via_Send_To_Member_chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test02_E2E_Treatment_02_Approve_Via_Send_To_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_E2E_Treatment_03_Approve_Via_Sms_chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test03_E2E_Treatment_03_Approve_Via_Sms" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test04_removeMSDPFromDraftSummaryAfterMSDPPurchase">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test04_removeMSDPFromDraftSummaryAfterMSDPPurchase" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test05_verifyPrivacyPolicyLatestReviseDate_10053">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test05_verifyPrivacyPolicyLatestReviseDate_10053" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test06_verifyTermsOfUse">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test06_verifyTermsOfUse" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test07_verifyCDTCodeNotDisplayedInSearchResult">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include
+						name="test07_verifyCDTCodeNotDisplayedInSearchResult" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test08_addSameCard_verifyErrorMessage">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test08_addSameCard_verifyErrorMessage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test09_dontAcceptEULA_afterLogin">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test09_dontAcceptEULA_afterLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test10_verify_paymentMethods_sorting">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Provider">
+				<methods>
+					<include name="test10_verify_paymentMethods_sorting" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ********ProviderBugs.JAVA ********* -->
+
+	<test name="test01_createTreatment_PDSUser_verifyCartCalculation">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test01_createTreatment_PDSUser_verifyCartCalculation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test02_createTreatment_newUserNoMSDP_verifyApproveButtonEnabled">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test02_createTreatment_newUserNoMSDP_verifyApproveButtonEnabled" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verifyMSDPPlanCantBeChargedTwice">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include name="test03_verifyMSDPPlanCantBeChargedTwice" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test04_createTreatment_InChairMSDP_verifyCartCalculation">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test04_createTreatment_InChairMSDP_verifyCartCalculation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test05_verifyPO_PD_shouldBeRemovedAfterUpdatingTreatment">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test05_verifyPO_PD_shouldBeRemovedAfterUpdatingTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test06_verifyMSDPPlanRemovedFromTreatmentWhenPDSUserSelected">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test06_verifyMSDPPlanRemovedFromTreatmentWhenPDSUserSelected" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test07_verifyExternalPaymentRemovedAfterUpdatingTreatment">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test07_verifyExternalPaymentRemovedAfterUpdatingTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_verifyTreatmentCostIsZero">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include name="test08_verifyTreatmentCostIsZero" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test09_verifyDepositShouldAdjustAfterAddingMSDP()">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test09_verifyDepositShouldAdjustAfterAddingMSDP()" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test10_takeDeposit_verifyRemainingShareAndDeposit_9655">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test10_takeDeposit_verifyRemainingShareAndDeposit_9655" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test11_verifyProviderDropdownNotContainsDuplicateOptions">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test11_verifyProviderDropdownNotContainsDuplicateOptions" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test12_verifyPlanNameMustChangeToMSDPAfterApprove">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test12_verifyPlanNameMustChangeToMSDPAfterApprove" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test13_closeMemberInfoModalAndClickContinueToPayAgain_2862">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test13_closeMemberInfoModalAndClickContinueToPayAgain_2862" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test14_deleteAllTreatmentsFromCart_2349">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include name="test14_deleteAllTreatmentsFromCart_2349" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test15_verifyLicenseNPIFieldMaxLimit_2408">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include name="test15_verifyLicenseNPIFieldMaxLimit_2408" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test16_searchUserWithLastNameHavingOnlyOnecharacter_2448">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test16_searchUserWithLastNameHavingOnlyOnecharacter_2448" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test17_verifyPlanDiscountAfterAddingAnotherTreatment">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test17_verifyPlanDiscountAfterAddingAnotherTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test18_searchUserFromPractice_signoutAndReLogin">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test18_searchUserFromPractice_signoutAndReLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test19_editProviderDirectoryInfo">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include name="test19_editProviderDirectoryInfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test20_addNewCodeButtonIsHiddenAfterTurningOffPermission">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test20_addNewCodeButtonIsHiddenAfterTurningOffPermission" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test21_verifyBenefitPlanAlreadyPurchasedError_5306">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.ProviderBugs">
+				<methods>
+					<include
+						name="test21_verifyBenefitPlanAlreadyPurchasedError_5306" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ***********PurchasePlanWithoutTreatment.JAVA *************** -->
+
+	<test name="test01_purchaseIndividualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.PurchasePlanWithoutTreatment">
+				<methods>
+					<include name="test01_purchaseIndividualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_purchaseTwoIndividualPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.PurchasePlanWithoutTreatment">
+				<methods>
+					<include name="test02_purchaseTwoIndividualPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_purchaseFamilyPlan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.PurchasePlanWithoutTreatment">
+				<methods>
+					<include name="test03_purchaseFamilyPlan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******Reporting ********** -->
+
+	<test name="Reporting Tests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.providerportal.Reporting">
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******SignSignout.JAVA scripts ******** -->
+
+	<test name="test01_signin_signout">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.SignInSignOut">
+				<methods>
+					<include name="test01_signin_signout" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Treatment Plan scripts ******* -->
+	<test
+		name="test01_Only_Add_Procedure_Link_Showing_For_Pending_Approval_Procedure">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include
+						name="test01_Only_Add_Procedure_Link_Showing_For_Pending_Approval_Procedure" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_cancel_Treatment_Plan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include name="test02_cancel_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_Maximum_Allowed_Deposit_Amount">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include
+						name="test03_verify_Maximum_Allowed_Deposit_Amount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_approve_Plan_With_Two_Providers_For_PDS">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include
+						name="test04_approve_Plan_With_Two_Providers_For_PDS" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test05_verify_Plan_Is_Mapped_To_Practice">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include name="test05_verify_Plan_Is_Mapped_To_Practice" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test06_Change_Provider_from_Treatment_Plan">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.TreatmentPlan">
+				<methods>
+					<include name="test06_Change_Provider_from_Treatment_Plan" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Benefits discounts (MSDP Rules) scripts ********* -->
+	<test
+		name="test01_verify_MSDP_With_Free_Of_Charges_Per_Two_Years_Removed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.pds.MSDP_Rules">
+				<methods>
+					<include
+						name="test01_verify_MSDP_With_Free_Of_Charges_Per_Two_Years_Removed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test02_verify_MSDP_With_Free_Of_Charges_Once_Per_Year_Removed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.pds.MSDP_Rules">
+				<methods>
+					<include
+						name="test02_verify_MSDP_With_Free_Of_Charges_Once_Per_Year_Removed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="test03_verify_MSDP_Charges_Once_Per_Five_Years_Procedures_Removed">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.pds.MSDP_Rules">
+				<methods>
+					<include
+						name="test03_verify_MSDP_Charges_Once_Per_Five_Years_Procedures_Removed" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ********Benefits discounts (Free Procedures) scripts ********** -->
+	<test name="test01_verify_Free_Of_Charges_Per_Two_Years_Pds_2018">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.FreeProcedures">
+				<methods>
+					<include
+						name="test01_verify_Free_Of_Charges_Per_Two_Years_Pds_2018" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verify_Free_Of_Charges_Procedures_Pds_2018">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.FreeProcedures">
+				<methods>
+					<include
+						name="test02_verify_Free_Of_Charges_Procedures_Pds_2018" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_Free_Of_Charges_Per_Two_Years_Wdc">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.FreeProcedures">
+				<methods>
+					<include
+						name="test03_verify_Free_Of_Charges_Per_Two_Years_Wdc" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verify_Free_Of_Charges_Procedures_Wdc">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.FreeProcedures">
+				<methods>
+					<include
+						name="test04_verify_Free_Of_Charges_Procedures_Wdc" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ********Maximum Benefits scripts ************ -->
+	<!-- <test -->
+	<!-- name="test01_verify_Additional_Benefits_Allowed_After_Refund_Pds_2018"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test01_verify_Additional_Benefits_Allowed_After_Refund_Pds_2018" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test02_verify_Additional_Benefits_Allowed_After_Refund_Wdc"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test02_verify_Additional_Benefits_Allowed_After_Refund_Wdc" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test03_verify_Maxed_Out_Benefit_Displays_No_Discount_In_Cart_Pds_2018"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test03_verify_Maxed_Out_Benefit_Displays_No_Discount_In_Cart_Pds_2018" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test04_verify_Maxed_Out_Benefit_Displays_No_Discount_In_Cart_Wdc"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test04_verify_Maxed_Out_Benefit_Displays_No_Discount_In_Cart_Wdc" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test05_verify_Maxed_Out_Benefit_Does_Not_Impact_Ortho_Pds_2018"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test05_verify_Maxed_Out_Benefit_Does_Not_Impact_Ortho_Pds_2018" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test06_verify_Maxed_Out_Benefit_Does_Not_Impact_Ortho_Wdc"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test06_verify_Maxed_Out_Benefit_Does_Not_Impact_Ortho_Wdc" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test07_verify_Maxed_Out_Benefit_No_Longer_Displays_Employer_Share_Pds_2018"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test07_verify_Maxed_Out_Benefit_No_Longer_Displays_Employer_Share_Pds_2018" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test08_verify_Maxed_Out_Benefit_No_Longer_Displays_Employer_Share_Wdc"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test08_verify_Maxed_Out_Benefit_No_Longer_Displays_Employer_Share_Wdc" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test09_verify_Procedures_That_Do_Not_Count_Towards_Benefit_Pds_2018"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test09_verify_Procedures_That_Do_Not_Count_Towards_Benefit_Pds_2018" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test10_verify_Procedures_That_Do_Not_Count_Towards_Benefit_Wdc"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.MaximumBenefit"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test10_verify_Procedures_That_Do_Not_Count_Towards_Benefit_Wdc" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- ********Benefits discounts (Ortho Discounts) scripts ********** -->
+	<!-- <test -->
+	<!-- name="test01_verify_Ortho_Children_Without_Parent_PDS_2018_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test01_verify_Ortho_Children_Without_Parent_PDS_2018_Dependent" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test02_verify_Ortho_Children_Without_Parent_PDS_2018_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test02_verify_Ortho_Children_Without_Parent_PDS_2018_Primary" 
+		/> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test03_verify_Ortho_Parent_One_PDS_2018_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test03_verify_Ortho_Parent_One_PDS_2018_Dependent" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test04_verify_Ortho_Parent_One_PDS_2018_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test04_verify_Ortho_Parent_One_PDS_2018_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test05_verify_Ortho_Parent_Two_PDS_2018_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test05_verify_Ortho_Parent_Two_PDS_2018_Dependent" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test06_verify_Ortho_Parent_Two_PDS_2018_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test06_verify_Ortho_Parent_Two_PDS_2018_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test07_verify_Ortho_Against_Msdp_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include name="test07_verify_Ortho_Against_Msdp_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test08_verify_Ortho_Against_No_Plan_For_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test08_verify_Ortho_Against_No_Plan_For_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test09_verify_Ortho_Children_Without_Parent_WDC_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test09_verify_Ortho_Children_Without_Parent_WDC_Dependent" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test -->
+	<!-- name="test10_verify_Ortho_Children_Without_Parent_WDC_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test10_verify_Ortho_Children_Without_Parent_WDC_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test11_verify_Ortho_Parent_One_WDC_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test11_verify_Ortho_Parent_One_WDC_Dependent" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test12_verify_Ortho_Parent_For_WDC_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include name="test12_verify_Ortho_Parent_For_WDC_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test13_verify_Ortho_Parent_Two_WDC_Dependent"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include -->
+	<!-- name="test13_verify_Ortho_Parent_Two_WDC_Dependent" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	<!-- <test name="test14_verify_Ortho_Parent_Two_WDC_Primary"> -->
+	<!-- <parameter name="browser" value="chrome"></parameter> -->
+	<!-- <classes> -->
+	<!-- <class -->
+	<!-- name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.OrthoDiscounts"> -->
+	<!-- <methods> -->
+	<!-- <include name="test14_verify_Ortho_Parent_Two_WDC_Primary" /> -->
+	<!-- </methods> -->
+	<!-- </class> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- *******Specialty discounts scripts *********** -->
+	<test name="test01_verify_General_Discount_For_Pds_Dependent">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test01_verify_General_Discount_For_Pds_Dependent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verify_General_Discount_For_Pds_Primary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test02_verify_General_Discount_For_Pds_Primary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_General_Discount_For_Wdc_Dependent">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test03_verify_General_Discount_For_Wdc_Dependent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verify_General_Discount_For_Wdc_Primary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test04_verify_General_Discount_For_Wdc_Primary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test05_verify_Special_Discount_For_Pds_Primary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test05_verify_Special_Discount_For_Pds_Primary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test06_verify_Special_Discount_For_Wdc_Dependent">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test06_verify_Special_Discount_For_Wdc_Dependent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test07_verify_Special_Discount_For_Wdc_Primary">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test07_verify_Special_Discount_For_Wdc_Primary" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_verify_Special_Discount_For_Pds_Dependent">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.benefitdiscounts.WdcPds2018Benefit.SpecialtyDiscounts">
+				<methods>
+					<include
+						name="test08_verify_Special_Discount_For_Pds_Dependent" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- ******Pricing Table scripts ******* -->
+	<test name="test01_verify_03012018_In_Nevada_Msdp_Fee_Schedule">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.Nevada">
+				<methods>
+					<include
+						name="test01_verify_03012018_In_Nevada_Msdp_Fee_Schedule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test02_verify_07312017_Or_Earlier_Renewal_In_Nevada_Interim">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.Nevada">
+				<methods>
+					<include
+						name="test02_verify_07312017_Or_Earlier_Renewal_In_Nevada_Interim" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test03_verify_08012017_To_02282018_Renewal_In_Nevada_Legacy">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.Nevada">
+				<methods>
+					<include
+						name="test03_verify_08012017_To_02282018_Renewal_In_Nevada_Legacy" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Pricing Table(Northern California) scripts ******** -->
+	<test
+		name="test03_verify_08012017_To_11302017_No_Renewal_In_Northern_California_Interim">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.NorthernCalifornia">
+				<methods>
+					<include
+						name="test03_verify_08012017_To_11302017_No_Renewal_In_Northern_California_Interim" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test06_verify_12012017_To_01312018_No_Renewal_In_Nothern_California_Interim">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.NorthernCalifornia">
+				<methods>
+					<include
+						name="test06_verify_12012017_To_01312018_No_Renewal_In_Nothern_California_Interim" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test07_verify_12012017_To_01312018_No_Renewal_Not_In_Nevada_Or_Nothern_California_Fee_Schedule">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.providerportal.pricingtable.NorthernCalifornia">
+				<methods>
+					<include
+						name="test07_verify_12012017_To_01312018_No_Renewal_Not_In_Nevada_Or_Nothern_California_Fee_Schedule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****************************MISCELLANEOUS SCRIPT START********************************************************* -->
+	<!-- *******Minor dependent scripts ********* -->
+
+	<test
+		name="test01_create_A_Plan_To_Minor_Dependent_Via_Send_To_Member">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.miscellaneous.MinorDependent">
+				<methods>
+					<include
+						name="test01_create_A_Plan_To_Minor_Dependent_Via_Send_To_Member" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test02_create_A_Plan_To_Minor_Dependent_Via_In_SMS">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.adminportal.Admin">
+				<methods>
+					<include
+						name="test02_create_A_Plan_To_Minor_Dependent_Via_In_SMS" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_create_A_Plan_To_Minor_Dependent_Via_In_Chair">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.miscellaneous.MinorDependent">
+				<methods>
+					<include
+						name="test03_create_A_Plan_To_Minor_Dependent_Via_In_Chair" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test
+		name="test04_verifyMinorTreatmentApprovealSMSShouldBeSentToPrimaryMember">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.miscellaneous.MinorDependent">
+				<methods>
+					<include
+						name="test04_verifyMinorTreatmentApprovealSMSShouldBeSentToPrimaryMember" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *******Renew scripts ********* -->
+	<test
+		name="test01_renew_After_Expired_Less_Than_Ninety_Days_From_Providers_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test01_renew_After_Expired_Less_Than_Ninety_Days_From_Providers_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test02_renew_After_Expired_More_Than_Ninety_Days_From_Providers_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test02_renew_After_Expired_More_Than_Ninety_Days_From_Providers_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test03_renew_After_Expired_More_Than_Ninety_Days_From_Providers_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test03_renew_After_Expired_More_Than_Ninety_Days_From_Providers_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test04_renew_After_Expired_More_Than_Ninety_Days_From_Member_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test04_renew_After_Expired_More_Than_Ninety_Days_From_Member_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test05_verify_Renew_Msdp_Early_By_Child_Dependent_In_Provider_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test05_verify_Renew_Msdp_Early_By_Child_Dependent_In_Provider_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test06_verify_Renew_Msdp_Less_Than_Nintety_Days_Late_By_Child_Dependent_In_Provider_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test06_verify_Renew_Msdp_Less_Than_Nintety_Days_Late_By_Child_Dependent_In_Provider_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test07_Verify_Renew_Msdp_More_Than_Nintety_Days_Late_By_Child_Dependent_In_Provider_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test07_Verify_Renew_Msdp_More_Than_Nintety_Days_Late_By_Child_Dependent_In_Provider_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_renew_Soon_To_Be_Expired_From_Member_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test08_renew_Soon_To_Be_Expired_From_Member_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test09_renew_Soon_To_Be_Expired_From_Providers_Portal">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include
+						name="test09_renew_Soon_To_Be_Expired_From_Providers_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test10_selectExpiredPlanUser_verifyPlanInfo">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include name="test10_selectExpiredPlanUser_verifyPlanInfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test11_activateMember_renewPlan_10349">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.Renew">
+				<methods>
+					<include name="test11_activateMember_renewPlan_10349" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Purchase PLan scripts ********* -->
+	<test name="test01_buyMsdpFromPurchasePortalWithCreditCard">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.PurchasePlan">
+				<methods>
+					<include
+						name="test01_buyMsdpFromPurchasePortalWithCreditCard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *****************************PURCHASE PORTAL SCRIPT START********************************************************* -->
+	<!-- *******Purchase scripts ******* -->
+	<test
+		name="test01_purchase_Two_Individual_MSDP_Plans_And_Approve_Now_Chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include
+						name="test01_purchase_Two_Individual_MSDP_Plans_And_Approve_Now" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_Invite_Friend">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test02_Invite_Friend" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_verify_Redirect_Washington_State_To_Cdi">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include
+						name="test03_verify_Redirect_Washington_State_To_Cdi" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!--<test name="test04_verifyPrivacyPolicyLatestReviseDate_10052"> <parameter 
+		name="browser" value="Chrome"></parameter> <classes> <class name="com.selenium.web.test.purchaseportal.PurchasePortal"> 
+		<methods> <include name="test04_verifyPrivacyPolicyLatestReviseDate_10052" 
+		/> </methods> </class> </classes> </test> -->
+	<test name="test05_verifyCallIcon_mobileUI">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test05_verifyCallIcon_mobileUI" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test06_verifyfindADentistButtonWorking">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test06_verifyfindADentistButtonWorking" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test07_verifyEULA_PDF_privacyPolicy">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test07_verifyEULA_PDF_privacyPolicy" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test08_verifyTermsOfServiceLink_footer">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.purchaseportal.PurchasePortal">
+				<methods>
+					<include name="test08_verifyTermsOfServiceLink_footer" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****Promo code scripts ********** -->
+
+	<test
+		name="test01_verify_Admin_Fee_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test01_verify_Admin_Fee_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test02_verify_Fifteen_Dollar_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test02_verify_Fifteen_Dollar_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test03_verify_Five_Dollar_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test03_verify_Five_Dollar_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test04_verify_Free_Parent_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test04_verify_Free_Parent_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test05_verify_Ten_Dollar_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test05_verify_Ten_Dollar_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test06_verify_Twenty_Dollar_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test06_verify_Twenty_Dollar_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test07_verify_Zero_Dollar_Discount_Promo_Code_From_Purchase_Portal">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test07_verify_Zero_Dollar_Discount_Promo_Code_From_Purchase_Portal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test08_verify_All_Paid_Promo_Code_From_Purchase_Portal()">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PromoCodes">
+				<methods>
+					<include
+						name="test08_verify_All_Paid_Promo_Code_From_Purchase_Portal()" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- ******PDF ********** -->
+
+	<test name="Purchase PDF Tests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.purchaseportal.PDF">
+			</class>
+		</classes>
+	</test>
+
+	<!-- ===========================GWC Portal============================= -->
+	<!-- GWCPortal.JAVA -->
+	<test name="test01_verifyPlanCost">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test01_verifyPlanCost" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test02_verifyPrivacyPolicy_footer">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test02_verifyPrivacyPolicy_footer" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test03_Invite_Friend">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test03_Invite_Friend" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test04_verifyTermsOfServiceLink_footer">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test04_verifyTermsOfServiceLink_footer" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="test05_purchase_Two_Individual_MSDP_Plan_And_Approve_Now">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include
+						name="test05_purchase_Two_Individual_MSDP_Plan_And_Approve_Now" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test06_verifContactPhoneAndEDmail_5170">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test06_verifContactPhoneAndEDmail_5170" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test07_purchasePlan_with_Invalid_CVV_5257">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.GWCPortal">
+				<methods>
+					<include name="test07_purchasePlan_with_Invalid_CVV_5257" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- PDF.JAVA -->
+	<test name="GWC PDF Tests">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.gwcportal.PDF">
+			</class>
+		</classes>
+	</test>
+
+	<!-- ===========================Smile Health Portal============================= -->
+	<test name="test03_purchaseSHAllInWellnessPlan_approveTreatment">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.smilehealth.SmileHealth">
+				<methods>
+					<include
+						name="test03_purchaseSHAllInWellnessPlan_approveTreatment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="test05_refundSmileHealthTransaction">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.smilehealth.SmileHealth">
+				<methods>
+					<include name="test05_refundSmileHealthTransaction" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****************************CSP PORTAL SCRIPT START********************************************************* -->
+	<!-- *****MembersCreate.JAVA scripts ***** -->
+	<test name="test02_verifyInvalidDateError">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.customerserviceportal.MemberCreate">
+				<methods>
+					<include name="test02_verifyInvalidDateError" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="test03_inputNegativePlanAmount_4929">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.customerserviceportal.MemberCreate">
+				<methods>
+					<include name="test03_inputNegativePlanAmount_4929" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****PlanReceipt.JAVA scripts ***** -->
+	<test name="test02_SendReceipt_forSamePlanWithDifferentDates">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.customerserviceportal.PlanReceipt">
+				<methods>
+					<include
+						name="test02_SendReceipt_forSamePlanWithDifferentDates" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- *****PlanMemberAdd.JAVA scripts ***** -->
+	<test name="test03_AddNewMemberToFuturePlan_5240">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.customerserviceportal.PlanMemberAdd">
+				<methods>
+					<include name="test03_AddNewMemberToFuturePlan_5240" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- Smile health, and OBP scripts are removed for now -->
+
+
+	<suite-files>
+		<suite-file
+			path="src/com/selenium/testrunner/dependent_on_FR.xml"></suite-file>
+	</suite-files>
+
+</suite>

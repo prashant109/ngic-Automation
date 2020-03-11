@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Tests" verbose="2" parallel="tests"
+	thread-count="1">
+
+	<!-- Scripts mentioned here are a part of full regression and will execute 
+		sequentially when user triggers full regression in order to avoid conflicts 
+		during parallel execution -->
+
+
+	<!-- *****Purchase PLan scripts ********* -->
+	<test name="test02_verify_Purchase_Msdp_From_Washington_State">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.PurchasePlan">
+				<methods>
+					<include
+						name="test02_verify_Purchase_Msdp_From_Washington_State" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="test03_purchaseMSDP_withoutTreatmentForWashingtonState_5032">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.selenium.web.test.miscellaneous.PurchasePlan">
+				<methods>
+					<include
+						name="test03_purchaseMSDP_withoutTreatmentForWashingtonState_5032" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<!-- *********MemberPortal Bugs scripts ********* -->
+	<test name="test08_approveTreatmentForWashingtonState">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.selenium.web.test.memberportal.MemberPortalBugs">
+				<methods>
+					<include name="test08_approveTreatmentForWashingtonState" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite>

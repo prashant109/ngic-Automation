@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API Tests" verbose="6" parallel="tests"
+	thread-count="1">
+
+
+	<test name="PAYMENTS API TESTS">
+		<classes>
+			<class name="com.api.payment.tests.Payments">
+			</class>
+			<class name="com.api.payment.tests.PaymentApi_Story_1654">
+			</class>
+			<class name="com.api.payment.tests.PaymentApi_Story_1655">
+			</class>
+			<class name="com.api.payment.tests.PaymentApi_Story_1656">
+			</class>
+			<class name="com.api.payment.tests.PaymentApi_Story_1816">
+			</class>
+			<class name="com.api.payment.tests.PaymentApi_Story_2230">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="SETTLEMENT API TESTS">
+		<classes>
+			<class name="com.api.payment.tests.Settlement">
+			</class>
+		</classes>
+	</test>
+
+	<test name="CDI IMPORT API TESTS">
+		<classes>
+			<class name="com.api.cdiimport.tests.CDIImport">
+			</class>
+		</classes>
+	</test>
+
+</suite>

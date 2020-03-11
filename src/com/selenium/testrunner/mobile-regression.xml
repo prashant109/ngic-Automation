@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mobile Tests" verbose="6" parallel="tests"
+	thread-count="2">
+
+	<test name="ANDROID Mobile Scripts">
+		<parameter name="browser" value="android-mobile"></parameter>
+		<classes>
+			<class name="com.selenium.mobile.test.membersportal.M_Activate" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_MemberPortalTreatment" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_ApproveTreatment" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_MSDP_MemberIdCard" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_PaymentMethods" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_RequestForgotPassword" />
+			<class
+				name="com.selenium.mobile.test.purchaseportal.M_PurchasePortal" />
+			<class name="com.selenium.mobile.test.gwcportal.M_GWCPortal" />
+			<class
+				name="com.selenium.mobile.test.smilehealth.M_SmileHealth" />
+		</classes>
+	</test>
+
+	<test name="IOS Tablet Scripts">
+		<parameter name="browser" value="ios-tablet"></parameter>
+		<classes>
+			<class name="com.selenium.mobile.test.membersportal.M_Activate" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_MemberPortalTreatment" />
+			<class
+				name="com.selenium.mobile.test.membersportal.M_PaymentMethods" />
+			<class
+				name="com.selenium.mobile.test.purchaseportal.M_PurchasePortal" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ApproveTreatment" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_Provider" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ApproveTreatment" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ToothChart" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_TreatmentPlan" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ChangePassword" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_DuplicateUser" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ProviderBugs" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_ForgotPassword" />
+			<class
+				name="com.selenium.mobile.test.providerportal.T_CustomCode" />
+		</classes>
+	</test>
+
+
+
+</suite>
