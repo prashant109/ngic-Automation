@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Initializing driver !!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Chrome driver initialized !!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Alert is not there---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Alert is not there---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Execute test case test01_Ipro_Epro_OES---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[1. Signing in to application | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[2. Confirming successful login by verifying Homepage URL Text---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : home.asp?brokerID=---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/home.asp?brokerID=23534267&brokerIDHash=107875045---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[3. Clicking individuals from top Menu---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[4. Confirming URL Text of quote and enroll page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : qiprom1/ifp/home/xo/home.asp?brokerID=---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/ifp/home/xo/home.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[5. Waiting for add new individual contact link to be appear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[6. Clicking create new contact link and waiting for it to dissappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[11. verifying URL Text for create new individual contact page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : qiprom1/ifp/contacts/new.asp?brokerID=---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/ifp/contacts/new.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[12. verifying page title text on Create New Individual Contact---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[13. Inserting first name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :prashant---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[14. Inserting last name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :wadhwa---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[15. Inserting zip code---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :92618---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[16 Inserting DOB---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[17. Clicking createnew contact button and waiting for it to dissappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[25. verifying page title text on Create Info---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[26. Clicking New Proposal button and waiting for it to disappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[27. verifying page title text on Create Proposal---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[28. Clicking CHOOSE PRODUCT TYPE(S) TAB---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[28 a. Scrolling to the bottom of the page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[29. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[30. Verifying page title text on Select Plans---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[31. Scrolling to the plan to add---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[32. Clicking add button to add plan1 to cart---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[33. Scrolling to the plan to add---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[34. Clicking add button to add plan2 to cart---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[35. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[36. Verifying page title text on Build your proposal with diff......options---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[37. Selecting proposal type from drop-down---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[38. Selecting proposal style from drop-down---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[39. Clicking New Proposal button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Comparing text ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text : /crystal/crServiceGateWay.asp---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL TEXT IS : https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Veriying if file is downloaded or not..---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[64287---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[64287---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Download Completed !!!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[https://wwwstg.quotit.net/quotit/apps/ipro/IproReport/Index?insuranceCategoryType=Family&brokerId=23534267&brokerIdHash=107875045&psId=201017175&key=794a0d5a-aa1e-451a-af88-cc590a3e9247&IsMultiInsurance=0&IsValidCart=0&numberOfTerms=&termMonths=0&householdDiscounCheckBox=0---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[36. Verifying page title text on Build your proposal with diff......options---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[37. Selecting proposal type from drop-down---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[38. Selecting proposal style from drop-down---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[39. Clicking New Proposal button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Comparing text ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Expected Text : /quotit/apps/epro/EproReport---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL TEXT IS : https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[40. Verifying page title text - Let's compare and shop plans---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[41. Clicking add to cart button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[42. Clicking view cart button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Trying to click again !!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[43. Verifying page title text - Here is your Quote....---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[44. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[50. Verifying URL Text for OES page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : UAP/UAP_Registration.aspx?BrokerCode=---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://wwwstg.quotit.net/quotit/apps/epro/ViewCartSCL01?familyId=14512060&cartId=313002&brokerId=355432&license_no=GUZSCD&quoteType=F&insuranceTypeId=D&familySourceReferenceID=&IFPPSID=2010171751223804&familyIDHash=421335738&paymentOption=M&householdDiscounCheckBox=0---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/UAP/UAP_Registration.aspx?BrokerCode=41d216ea-8f76-4e96-8a1f-5c125eb01d20&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&familyId=14512060&cartId=313002&RequestDateTime=202003091015&isAgent=1&OESConsumerId=&familyIDHash=421335738---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[51. Verifying page title text on OES Primary page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[52. Inserting email address---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :vpqt3963112auto@yopmail.com---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[53. Retyping email address again---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :vpqt3963112auto@yopmail.com---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[54. Inserting password---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Test123!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[55. Retyping password again---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Test123!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[56. Inserting security answer---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Test---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[57. Clicking Register button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[58. Clicking Continue button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[59. Verifying URL Text for OES Application Information page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : OAS/OAS_Generic2.aspx?---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_Generic2.aspx?PageNumber=04039688&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[60. Verifying page title text on OES Application Information page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[62. Inserting street address---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :123 Lane---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[63. Inserting City---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Irvine---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[64. Inserting Home Phone Number---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :3408554230---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :3408554230---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :0340855423---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :3034085542---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[66. Clicking Register button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[68. Click membership Radio Button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[69. Click Effective Date Radio Button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[70. Clicking Register button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[71. Do you currently have vision insurance---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[72. Clicking Register button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[73. Verifying URL Text for Payment page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : OAS/OAS_PaymentOptions4.aspx?---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_PaymentOptions4.aspx?PageNumber=03603668&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[74. Verifying page title text on OES Payment page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[75. Inserting first name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Prashant---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[76. Inserting last name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Wadhwa---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[77. Inserting credit card Number---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Phone number in input box :4111111111111111---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[78. Inserting cc exp. date---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :03/2024---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[79. Inserting cvv2 code---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :011---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[80. Clicking Continue button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[81. Verifying URL OES Review page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : OAS/OAS_ReviewVerify.aspx?---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_ReviewVerify.aspx?PageNumber=03530998&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[82. Verifying page title text on OES Review Page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[83. Clicking Continue button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[84. Verifying URL Text for Sign and submit page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : OAS/OAS_EsignatureSubmission.aspx?---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_EsignatureSubmission.aspx?PageNumber=03458328&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[85. Verifying page title text on Sign and submit page---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[86. Clicking Checkbox 1---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[87. Clicking Checkbox 2---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[88. Inserting first name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Prashant---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[89. Inserting last name---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Wadhwa---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[90. Inserting first name again---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Prashant---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[91. Inserting last name again---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[value in input box :Wadhwa---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[92. Clicking Submit Application button---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Verify following text in URL : OAS/OAS_ApplicationStatus.aspx?---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_ApplicationStatus.aspx?BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&CarrierName=Ameritas%20PrimeStar---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[URL verified | ---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[clicking Logout button to complete the Smoke test---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Smoke test completed successfully---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Cleaning Page Objects !!!---------<p>]]>
+    </line>
+    <line>
+      <![CDATA[Cleaning Page Objects !!!---------<p>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="213462" started-at="2020-03-09T10:13:05 PDT" finished-at="2020-03-09T10:16:38 PDT">
+    <groups>
+      <group name="smoke">
+        <method signature="Ipro.test01_Ipro_Epro_OES()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="test01_Ipro_Epro_OES" class="com.selenium.web.test.ipro.Ipro"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="213462" started-at="2020-03-09T10:13:05 PDT" finished-at="2020-03-09T10:16:38 PDT">
+      <class name="com.selenium.web.test.ipro.Ipro">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="initialSetUp" is-config="true" duration-ms="114" started-at="2020-03-09T10:13:05 PDT" finished-at="2020-03-09T10:13:05 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="setUp" is-config="true" duration-ms="67599" started-at="2020-03-09T10:13:05 PDT" finished-at="2020-03-09T10:14:13 PDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Initializing driver !!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Chrome driver initialized !!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Alert is not there---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Alert is not there---------<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test01_Ipro_Epro_OES()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="test01_Ipro_Epro_OES" duration-ms="145542" started-at="2020-03-09T10:14:13 PDT" finished-at="2020-03-09T10:16:38 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Execute test case test01_Ipro_Epro_OES---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[1. Signing in to application | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[2. Confirming successful login by verifying Homepage URL Text---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : home.asp?brokerID=---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/home.asp?brokerID=23534267&brokerIDHash=107875045---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[3. Clicking individuals from top Menu---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[4. Confirming URL Text of quote and enroll page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : qiprom1/ifp/home/xo/home.asp?brokerID=---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/ifp/home/xo/home.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[5. Waiting for add new individual contact link to be appear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[6. Clicking create new contact link and waiting for it to dissappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[11. verifying URL Text for create new individual contact page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : qiprom1/ifp/contacts/new.asp?brokerID=---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://wwwstg.quotit.net/qiprom1/ifp/contacts/new.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[12. verifying page title text on Create New Individual Contact---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[13. Inserting first name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :prashant---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[14. Inserting last name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :wadhwa---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[15. Inserting zip code---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :92618---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[16 Inserting DOB---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[17. Clicking createnew contact button and waiting for it to dissappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[25. verifying page title text on Create Info---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[26. Clicking New Proposal button and waiting for it to disappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[27. verifying page title text on Create Proposal---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[28. Clicking CHOOSE PRODUCT TYPE(S) TAB---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[28 a. Scrolling to the bottom of the page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[29. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[30. Verifying page title text on Select Plans---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[31. Scrolling to the plan to add---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[32. Clicking add button to add plan1 to cart---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[33. Scrolling to the plan to add---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[34. Clicking add button to add plan2 to cart---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[35. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[36. Verifying page title text on Build your proposal with diff......options---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[37. Selecting proposal type from drop-down---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[38. Selecting proposal style from drop-down---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[39. Clicking New Proposal button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Comparing text ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text : /crystal/crServiceGateWay.asp---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[ACTUAL TEXT IS : https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Veriying if file is downloaded or not..---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[64287---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[64287---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Download Completed !!!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[https://wwwstg.quotit.net/quotit/apps/ipro/IproReport/Index?insuranceCategoryType=Family&brokerId=23534267&brokerIdHash=107875045&psId=201017175&key=794a0d5a-aa1e-451a-af88-cc590a3e9247&IsMultiInsurance=0&IsValidCart=0&numberOfTerms=&termMonths=0&householdDiscounCheckBox=0---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[36. Verifying page title text on Build your proposal with diff......options---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[37. Selecting proposal type from drop-down---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[38. Selecting proposal style from drop-down---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[39. Clicking New Proposal button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Comparing text ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Expected Text : /quotit/apps/epro/EproReport---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[ACTUAL TEXT IS : https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[40. Verifying page title text - Let's compare and shop plans---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[41. Clicking add to cart button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[42. Clicking view cart button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Trying to click again !!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[43. Verifying page title text - Here is your Quote....---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[44. Clicking New Proposal button and waiting for it to dissappear---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[50. Verifying URL Text for OES page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : UAP/UAP_Registration.aspx?BrokerCode=---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://wwwstg.quotit.net/quotit/apps/epro/ViewCartSCL01?familyId=14512060&cartId=313002&brokerId=355432&license_no=GUZSCD&quoteType=F&insuranceTypeId=D&familySourceReferenceID=&IFPPSID=2010171751223804&familyIDHash=421335738&paymentOption=M&householdDiscounCheckBox=0---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/UAP/UAP_Registration.aspx?BrokerCode=41d216ea-8f76-4e96-8a1f-5c125eb01d20&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&familyId=14512060&cartId=313002&RequestDateTime=202003091015&isAgent=1&OESConsumerId=&familyIDHash=421335738---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[51. Verifying page title text on OES Primary page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[52. Inserting email address---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :vpqt3963112auto@yopmail.com---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[53. Retyping email address again---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :vpqt3963112auto@yopmail.com---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[54. Inserting password---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Test123!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[55. Retyping password again---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Test123!---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[56. Inserting security answer---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Test---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[57. Clicking Register button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[58. Clicking Continue button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[59. Verifying URL Text for OES Application Information page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : OAS/OAS_Generic2.aspx?---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_Generic2.aspx?PageNumber=04039688&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[60. Verifying page title text on OES Application Information page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[62. Inserting street address---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :123 Lane---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[63. Inserting City---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Irvine---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[64. Inserting Home Phone Number---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :3408554230---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :3408554230---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :0340855423---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number didn't match. Trying again ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :3034085542---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[66. Clicking Register button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[68. Click membership Radio Button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[69. Click Effective Date Radio Button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[70. Clicking Register button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[71. Do you currently have vision insurance---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[72. Clicking Register button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[73. Verifying URL Text for Payment page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : OAS/OAS_PaymentOptions4.aspx?---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_PaymentOptions4.aspx?PageNumber=03603668&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[74. Verifying page title text on OES Payment page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[75. Inserting first name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Prashant---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[76. Inserting last name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Wadhwa---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[77. Inserting credit card Number---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Phone number in input box :4111111111111111---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[78. Inserting cc exp. date---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :03/2024---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[79. Inserting cvv2 code---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :011---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[80. Clicking Continue button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[81. Verifying URL OES Review page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : OAS/OAS_ReviewVerify.aspx?---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_ReviewVerify.aspx?PageNumber=03530998&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[82. Verifying page title text on OES Review Page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[83. Clicking Continue button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[84. Verifying URL Text for Sign and submit page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : OAS/OAS_EsignatureSubmission.aspx?---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_EsignatureSubmission.aspx?PageNumber=03458328&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[85. Verifying page title text on Sign and submit page---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[86. Clicking Checkbox 1---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[87. Clicking Checkbox 2---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[88. Inserting first name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Prashant---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[89. Inserting last name---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Wadhwa---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[90. Inserting first name again---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Prashant---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[91. Inserting last name again---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[value in input box :Wadhwa---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[92. Clicking Submit Application button---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Verify following text in URL : OAS/OAS_ApplicationStatus.aspx?---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[actual URL : https://oesstg.quotit.net/OAS/OAS_ApplicationStatus.aspx?BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&CarrierName=Ameritas%20PrimeStar---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[URL verified | ---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[clicking Logout button to complete the Smoke test---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Smoke test completed successfully---------<p>]]>
+            </line>
+            <line>
+              <![CDATA[Cleaning Page Objects !!!---------<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test01_Ipro_Epro_OES -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="tearDown" is-config="true" duration-ms="153" started-at="2020-03-09T10:16:38 PDT" finished-at="2020-03-09T10:16:38 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test01_Ipro_Epro_OES status=SUCCESS method=Ipro.test01_Ipro_Epro_OES()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44] output=Execute test case test01_Ipro_Epro_OES---------<p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Cleaning Page Objects !!!---------<p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="tearDown" is-config="true" duration-ms="26" started-at="2020-03-09T10:16:38 PDT" finished-at="2020-03-09T10:16:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postScriptsCleaning()[pri:0, instance:com.selenium.web.test.ipro.Ipro@2833cc44]" name="postScriptsCleaning" is-config="true" duration-ms="0" started-at="2020-03-09T10:16:38 PDT" finished-at="2020-03-09T10:16:38 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postScriptsCleaning -->
+      </class> <!-- com.selenium.web.test.ipro.Ipro -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

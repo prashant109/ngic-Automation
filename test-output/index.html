@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\i818654\AppData\Local\Temp\testng-eclipse--1656785530\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.web.test.ipro.Ipro" hash-for-method="test01_Ipro_Epro_OES">test01_Ipro_Epro_OES</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.web.test.ipro.Ipro</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test01_Ipro_Epro_OES">
+                  </a> <!-- test01_Ipro_Epro_OES -->
+                  <span class="method-name">test01_Ipro_Epro_OES</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\i818654\AppData\Local\Temp\testng-eclipse--1656785530\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.web.test.ipro.Ipro&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;test01_Ipro_Epro_OES&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.selenium.web.test.ipro.Ipro --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test01_Ipro_Epro_OES</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test01_Ipro_Epro_OES')
+data.setCell(0, 2, 'com.selenium.web.test.ipro.Ipro')
+data.setCell(0, 3, 145542);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test01_Ipro_Epro_OES</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Execute test case test01_Ipro_Epro_OES---------<p></span>
+                <span class="reporter-method-output">1. Signing in to application | ---------<p></span>
+                <span class="reporter-method-output">2. Confirming successful login by verifying Homepage URL Text---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : home.asp?brokerID=---------<p></span>
+                <span class="reporter-method-output">actual URL : https://wwwstg.quotit.net/qiprom1/home.asp?brokerID=23534267&brokerIDHash=107875045---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">3. Clicking individuals from top Menu---------<p></span>
+                <span class="reporter-method-output">4. Confirming URL Text of quote and enroll page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : qiprom1/ifp/home/xo/home.asp?brokerID=---------<p></span>
+                <span class="reporter-method-output">actual URL : https://wwwstg.quotit.net/qiprom1/ifp/home/xo/home.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">5. Waiting for add new individual contact link to be appear---------<p></span>
+                <span class="reporter-method-output">6. Clicking create new contact link and waiting for it to dissappear---------<p></span>
+                <span class="reporter-method-output">11. verifying URL Text for create new individual contact page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : qiprom1/ifp/contacts/new.asp?brokerID=---------<p></span>
+                <span class="reporter-method-output">actual URL : https://wwwstg.quotit.net/qiprom1/ifp/contacts/new.asp?brokerID=23534267&brokerIDhash=107875045&iProSubmenuMode=2---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">12. verifying page title text on Create New Individual Contact---------<p></span>
+                <span class="reporter-method-output">13. Inserting first name---------<p></span>
+                <span class="reporter-method-output">value in input box :prashant---------<p></span>
+                <span class="reporter-method-output">14. Inserting last name---------<p></span>
+                <span class="reporter-method-output">value in input box :wadhwa---------<p></span>
+                <span class="reporter-method-output">15. Inserting zip code---------<p></span>
+                <span class="reporter-method-output">value in input box :92618---------<p></span>
+                <span class="reporter-method-output">16 Inserting DOB---------<p></span>
+                <span class="reporter-method-output">17. Clicking createnew contact button and waiting for it to dissappear---------<p></span>
+                <span class="reporter-method-output">25. verifying page title text on Create Info---------<p></span>
+                <span class="reporter-method-output">26. Clicking New Proposal button and waiting for it to disappear---------<p></span>
+                <span class="reporter-method-output">27. verifying page title text on Create Proposal---------<p></span>
+                <span class="reporter-method-output">28. Clicking CHOOSE PRODUCT TYPE(S) TAB---------<p></span>
+                <span class="reporter-method-output">28 a. Scrolling to the bottom of the page---------<p></span>
+                <span class="reporter-method-output">29. Clicking New Proposal button and waiting for it to dissappear---------<p></span>
+                <span class="reporter-method-output">30. Verifying page title text on Select Plans---------<p></span>
+                <span class="reporter-method-output">31. Scrolling to the plan to add---------<p></span>
+                <span class="reporter-method-output">32. Clicking add button to add plan1 to cart---------<p></span>
+                <span class="reporter-method-output">33. Scrolling to the plan to add---------<p></span>
+                <span class="reporter-method-output">34. Clicking add button to add plan2 to cart---------<p></span>
+                <span class="reporter-method-output">35. Clicking New Proposal button and waiting for it to dissappear---------<p></span>
+                <span class="reporter-method-output">36. Verifying page title text on Build your proposal with diff......options---------<p></span>
+                <span class="reporter-method-output">37. Selecting proposal type from drop-down---------<p></span>
+                <span class="reporter-method-output">38. Selecting proposal style from drop-down---------<p></span>
+                <span class="reporter-method-output">39. Clicking New Proposal button---------<p></span>
+                <span class="reporter-method-output">https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p></span>
+                <span class="reporter-method-output">Comparing text ---------<p></span>
+                <span class="reporter-method-output">Expected Text : /crystal/crServiceGateWay.asp---------<p></span>
+                <span class="reporter-method-output">ACTUAL TEXT IS : https://wwwstg.quotit.net/crystal/crServiceGateWay.asp---------<p></span>
+                <span class="reporter-method-output">Veriying if file is downloaded or not..---------<p></span>
+                <span class="reporter-method-output">64287---------<p></span>
+                <span class="reporter-method-output">64287---------<p></span>
+                <span class="reporter-method-output">Download Completed !!!---------<p></span>
+                <span class="reporter-method-output">https://wwwstg.quotit.net/quotit/apps/ipro/IproReport/Index?insuranceCategoryType=Family&brokerId=23534267&brokerIdHash=107875045&psId=201017175&key=794a0d5a-aa1e-451a-af88-cc590a3e9247&IsMultiInsurance=0&IsValidCart=0&numberOfTerms=&termMonths=0&householdDiscounCheckBox=0---------<p></span>
+                <span class="reporter-method-output">36. Verifying page title text on Build your proposal with diff......options---------<p></span>
+                <span class="reporter-method-output">37. Selecting proposal type from drop-down---------<p></span>
+                <span class="reporter-method-output">38. Selecting proposal style from drop-down---------<p></span>
+                <span class="reporter-method-output">39. Clicking New Proposal button---------<p></span>
+                <span class="reporter-method-output">https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p></span>
+                <span class="reporter-method-output">Comparing text ---------<p></span>
+                <span class="reporter-method-output">Expected Text : /quotit/apps/epro/EproReport---------<p></span>
+                <span class="reporter-method-output">ACTUAL TEXT IS : https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p></span>
+                <span class="reporter-method-output">https://wwwstg.quotit.net/quotit/apps/epro/EproReportSCL01/IndexSCL01?IFPPSID=2010171751223804&familyIDHash=421335738&license_no=GUZSCD&iProBrokerID_PSID=23534267&householdDiscounCheckBox=0&Income=&insuranceTypeID=D&brokerID=355432&isSubsidy=&familyID=14512060&layout=1&zipCode=92618---------<p></span>
+                <span class="reporter-method-output">40. Verifying page title text - Let's compare and shop plans---------<p></span>
+                <span class="reporter-method-output">41. Clicking add to cart button---------<p></span>
+                <span class="reporter-method-output">42. Clicking view cart button---------<p></span>
+                <span class="reporter-method-output">Trying to click again !!---------<p></span>
+                <span class="reporter-method-output">43. Verifying page title text - Here is your Quote....---------<p></span>
+                <span class="reporter-method-output">44. Clicking New Proposal button and waiting for it to dissappear---------<p></span>
+                <span class="reporter-method-output">50. Verifying URL Text for OES page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : UAP/UAP_Registration.aspx?BrokerCode=---------<p></span>
+                <span class="reporter-method-output">actual URL : https://wwwstg.quotit.net/quotit/apps/epro/ViewCartSCL01?familyId=14512060&cartId=313002&brokerId=355432&license_no=GUZSCD&quoteType=F&insuranceTypeId=D&familySourceReferenceID=&IFPPSID=2010171751223804&familyIDHash=421335738&paymentOption=M&householdDiscounCheckBox=0---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/UAP/UAP_Registration.aspx?BrokerCode=41d216ea-8f76-4e96-8a1f-5c125eb01d20&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&familyId=14512060&cartId=313002&RequestDateTime=202003091015&isAgent=1&OESConsumerId=&familyIDHash=421335738---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">51. Verifying page title text on OES Primary page---------<p></span>
+                <span class="reporter-method-output">52. Inserting email address---------<p></span>
+                <span class="reporter-method-output">value in input box :vpqt3963112auto@yopmail.com---------<p></span>
+                <span class="reporter-method-output">53. Retyping email address again---------<p></span>
+                <span class="reporter-method-output">value in input box :vpqt3963112auto@yopmail.com---------<p></span>
+                <span class="reporter-method-output">54. Inserting password---------<p></span>
+                <span class="reporter-method-output">value in input box :Test123!---------<p></span>
+                <span class="reporter-method-output">55. Retyping password again---------<p></span>
+                <span class="reporter-method-output">value in input box :Test123!---------<p></span>
+                <span class="reporter-method-output">56. Inserting security answer---------<p></span>
+                <span class="reporter-method-output">value in input box :Test---------<p></span>
+                <span class="reporter-method-output">57. Clicking Register button---------<p></span>
+                <span class="reporter-method-output">58. Clicking Continue button---------<p></span>
+                <span class="reporter-method-output">59. Verifying URL Text for OES Application Information page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : OAS/OAS_Generic2.aspx?---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/OAS/OAS_Generic2.aspx?PageNumber=04039688&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">60. Verifying page title text on OES Application Information page---------<p></span>
+                <span class="reporter-method-output">62. Inserting street address---------<p></span>
+                <span class="reporter-method-output">value in input box :123 Lane---------<p></span>
+                <span class="reporter-method-output">63. Inserting City---------<p></span>
+                <span class="reporter-method-output">value in input box :Irvine---------<p></span>
+                <span class="reporter-method-output">64. Inserting Home Phone Number---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :3408554230---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :3408554230---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :0340855423---------<p></span>
+                <span class="reporter-method-output">Phone number didn't match. Trying again ---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :3034085542---------<p></span>
+                <span class="reporter-method-output">66. Clicking Register button---------<p></span>
+                <span class="reporter-method-output">68. Click membership Radio Button---------<p></span>
+                <span class="reporter-method-output">69. Click Effective Date Radio Button---------<p></span>
+                <span class="reporter-method-output">70. Clicking Register button---------<p></span>
+                <span class="reporter-method-output">71. Do you currently have vision insurance---------<p></span>
+                <span class="reporter-method-output">72. Clicking Register button---------<p></span>
+                <span class="reporter-method-output">73. Verifying URL Text for Payment page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : OAS/OAS_PaymentOptions4.aspx?---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/OAS/OAS_PaymentOptions4.aspx?PageNumber=03603668&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">74. Verifying page title text on OES Payment page---------<p></span>
+                <span class="reporter-method-output">75. Inserting first name---------<p></span>
+                <span class="reporter-method-output">value in input box :Prashant---------<p></span>
+                <span class="reporter-method-output">76. Inserting last name---------<p></span>
+                <span class="reporter-method-output">value in input box :Wadhwa---------<p></span>
+                <span class="reporter-method-output">77. Inserting credit card Number---------<p></span>
+                <span class="reporter-method-output">Phone number in input box :4111111111111111---------<p></span>
+                <span class="reporter-method-output">78. Inserting cc exp. date---------<p></span>
+                <span class="reporter-method-output">value in input box :03/2024---------<p></span>
+                <span class="reporter-method-output">79. Inserting cvv2 code---------<p></span>
+                <span class="reporter-method-output">value in input box :011---------<p></span>
+                <span class="reporter-method-output">80. Clicking Continue button---------<p></span>
+                <span class="reporter-method-output">81. Verifying URL OES Review page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : OAS/OAS_ReviewVerify.aspx?---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/OAS/OAS_ReviewVerify.aspx?PageNumber=03530998&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">82. Verifying page title text on OES Review Page---------<p></span>
+                <span class="reporter-method-output">83. Clicking Continue button---------<p></span>
+                <span class="reporter-method-output">84. Verifying URL Text for Sign and submit page---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : OAS/OAS_EsignatureSubmission.aspx?---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/OAS/OAS_EsignatureSubmission.aspx?PageNumber=03458328&BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&Direction=continue&remoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">85. Verifying page title text on Sign and submit page---------<p></span>
+                <span class="reporter-method-output">86. Clicking Checkbox 1---------<p></span>
+                <span class="reporter-method-output">87. Clicking Checkbox 2---------<p></span>
+                <span class="reporter-method-output">88. Inserting first name---------<p></span>
+                <span class="reporter-method-output">value in input box :Prashant---------<p></span>
+                <span class="reporter-method-output">89. Inserting last name---------<p></span>
+                <span class="reporter-method-output">value in input box :Wadhwa---------<p></span>
+                <span class="reporter-method-output">90. Inserting first name again---------<p></span>
+                <span class="reporter-method-output">value in input box :Prashant---------<p></span>
+                <span class="reporter-method-output">91. Inserting last name again---------<p></span>
+                <span class="reporter-method-output">value in input box :Wadhwa---------<p></span>
+                <span class="reporter-method-output">92. Clicking Submit Application button---------<p></span>
+                <span class="reporter-method-output">Verify following text in URL : OAS/OAS_ApplicationStatus.aspx?---------<p></span>
+                <span class="reporter-method-output">actual URL : https://oesstg.quotit.net/OAS/OAS_ApplicationStatus.aspx?BookmarkGuid=0fce9475-2d16-4f3d-9f06-c474aea0d502&RemoteAccessKey=7766fcee-114b-4a18-a4af-36c713e6d68c&CarrierName=Ameritas%20PrimeStar---------<p></span>
+                <span class="reporter-method-output">URL verified | ---------<p></span>
+                <span class="reporter-method-output">clicking Logout button to complete the Smoke test---------<p></span>
+                <span class="reporter-method-output">Smoke test completed successfully---------<p></span>
+                <span class="reporter-method-output">Cleaning Page Objects !!!---------<p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.web.test.ipro.Ipro</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">test03_AgentCubed</span>
+                <br/>
+                <span class="ignored-method-name">test02_Ipro_Coverage_Builder</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.web.test.ipro.Ipro</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(null, public void com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES() throws java.lang.Exception)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test01_Ipro_Epro_OES</span>
+                <span class="method-start">67720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=test01_Ipro_Epro_OES status=SUCCESS method=Ipro.test01_Ipro_Epro_OES()[pri:0, insta...)</span>
+                <span class="method-start">213268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">postScriptsCleaning</span>
+                <span class="method-start">213448 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

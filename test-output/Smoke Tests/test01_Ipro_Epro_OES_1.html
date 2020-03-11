@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>TestNG:  test01_Ipro_Epro_OES_1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test01_Ipro_Epro_OES_1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 28 17:49:20 PDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>78 seconds (78464 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2()'><b>test01_Ipro_Epro_OES_2</b><br>Test class: com.selenium.web.test.ipro.Ipro<br/>
+<a href="#Output-856297948" onClick='toggleBox("Output-856297948", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-856297948" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-856297948">
+Execute test case test01_Ipro_Epro_OES_2---------<p><br/>
+Signing in to application | ---------<p><br/>
+Login Email : Automation---------<p><br/>
+Wait for element to be visible on web page: By.id: BrokerID---------<p><br/>
+Element : By.id: BrokerID Found !!!---------<p><br/>
+Typing value : Automation---------<p><br/>
+Typing value : 123456---------<p><br/>
+Click : By.xpath: //*[@value='Login']---------<p><br/>
+Element : By.xpath: //*[@value='Login'] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[@value='Login']---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+Confirming successful login by verifying Homepage URL Text---------<p><br/>
+Verify following text in URL : home.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/home.asp?brokerID=23514619&brokerIDHash=679291544---------<p><br/>
+URL verified | ---------<p><br/>
+Clicking individuals from top Menu---------<p><br/>
+Click : By.xpath: //*[contains(text(),'Individuals')] ---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Individuals')]  Found !!!---------<p><br/>
+Wait for element to be visible : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Confirming URL Text of quote and enroll page---------<p><br/>
+Verify following text in URL : qiprom1/ifp/home/xo/home.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/ifp/home/xo/home.asp?brokerID=23514619&brokerIDhash=679291544&iProSubmenuMode=2---------<p><br/>
+URL verified | ---------<p><br/>
+Waiting for add new individual contact link to be appear---------<p><br/>
+Wait for element to be visible : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Clicking createnew contact link and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying URL Text for create new individual contact page---------<p><br/>
+Verify following text in URL : qiprom1/ifp/contacts/new.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/ifp/contacts/new.asp?brokerID=23514619&brokerIDhash=679291544&iProSubmenuMode=2---------<p><br/>
+URL verified | ---------<p><br/>
+verifying page title text on Create New Individual Contact---------<p><br/>
+Wait for element to be visible on web page: Create New Individual Contact---------<p><br/>
+Text : Create New Individual Contact Found !!!---------<p><br/>
+Inserting first name---------<p><br/>
+Typing value : prashant---------<p><br/>
+Element : By.name: applicantFirstName Found !!!---------<p><br/>
+Element : By.name: applicantFirstName Found !!!---------<p><br/>
+value in input box :prashant---------<p><br/>
+Inserting last name---------<p><br/>
+Typing value : wadhwa---------<p><br/>
+Element : By.name: applicantLastName Found !!!---------<p><br/>
+Element : By.name: applicantLastName Found !!!---------<p><br/>
+value in input box :wadhwa---------<p><br/>
+Inserting zip code---------<p><br/>
+Typing value : 92618---------<p><br/>
+Element : By.name: zipCode Found !!!---------<p><br/>
+Element : By.name: zipCode Found !!!---------<p><br/>
+value in input box :92618---------<p><br/>
+Inserting DOB---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Clicking createnew contact button and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //em[contains(text(),'Create Contact')]---------<p><br/>
+Element : By.xpath: //em[contains(text(),'Create Contact')] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //em[contains(text(),'Create Contact')]---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying page title text on Create Info---------<p><br/>
+Wait for element to be visible on web page: Contact Info---------<p><br/>
+Text : Contact Info Found !!!---------<p><br/>
+Clicking New Proposal button and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::*---------<p><br/>
+Element : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::* Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::*---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying page title text on Create Proposal---------<p><br/>
+Wait for element to be visible on web page: Create Proposal---------<p><br/>
+Text : Create Proposal Found !!!---------<p><br/>
+checking on Health Off-Exchange checkbox---------<p><br/>
+Click : By.xpath: (//*[contains(text(),"Health Off-Exchange")])[2]/preceding-sibling::td/child::*---------<p><br/>
+Element : By.xpath: (//*[contains(text(),"Health Off-Exchange")])[2]/preceding-sibling::td/child::* Found !!!---------<p><br/>
+Clicking New Proposal button and waiting for it to dissappear---------<p><br/>
+Click : By.id: submitButton---------<p><br/>
+Element : By.id: submitButton Found !!!---------<p><br/>
+Waiting for element not present : By.id: submitButton---------<p><br/>
+Trying to click again !!---------<p><br/>
+Is following element Visible : By.id: submitButton---------<p><br/>
+clickUsingJavaScript: By.id: submitButton---------<p><br/>
+Element : By.id: submitButton Found !!!---------<p><br/>
+Waiting for element not present : By.id: submitButton---------<p><br/>
+Trying to click again !!---------<p><br/>
+test01_Ipro_Epro_OES_2 Failed!---------<p><br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: Issue : Element By.id: submitButton still displayed. It must get disappear after click !!!
+	at com.selenium.util.actiondriver.WebActionDriver.clickAndWaitForElementToDisappear(WebActionDriver.java:748)
+	at com.selenium.web.page.ipro.CreateProposal.chooseProductTypeAndClickShowPlans(CreateProposal.java:42)
+	at com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2(Ipro.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace856297948", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace856297948'><pre>java.lang.Exception: Issue : Element By.id: submitButton still displayed. It must get disappear after click !!!
+	at com.selenium.util.actiondriver.WebActionDriver.clickAndWaitForElementToDisappear(WebActionDriver.java:748)
+	at com.selenium.web.page.ipro.CreateProposal.chooseProductTypeAndClickShowPlans(CreateProposal.java:42)
+	at com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2(Ipro.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:204)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>96</td>
+<td>com.selenium.web.test.ipro.Ipro@4d50efb8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_1()'><b>test01_Ipro_Epro_OES_1</b><br>Test class: com.selenium.web.test.ipro.Ipro<br/>
+<a href="#Output-1820221482" onClick='toggleBox("Output-1820221482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1820221482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1820221482">
+test01_Ipro_Epro_OES_1 skipped!---------<p><br/>
+Unable to fetch current url. Might be browser---------<p><br/>
+Screen shot failure null---------<p><br/>
+test01_Ipro_Epro_OES_1 skipped!---------<p><br/>
+Unable to fetch current url. Might be browser---------<p><br/>
+Screen shot failure null---------<p><br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping test case due to following error : org.openqa.selenium.WebDriverException: unknown error: Devtools port number file contents &lt;58783&gt; were in an unexpected format
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LPF1K68SH&apos;, ip: &apos;10.52.74.95&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0134EB13+1501971]
+	Ordinal0 [0x012CF6D1+980689]
+	Ordinal0 [0x0125765F+489055]
+	Ordinal0 [0x011EEACA+60106]
+	Ordinal0 [0x011EBC53+48211]
+	Ordinal0 [0x01209800+169984]
+	Ordinal0 [0x0120942D+169005]
+	Ordinal0 [0x012078EB+162027]
+	Ordinal0 [0x011F0AC7+68295]
+	Ordinal0 [0x011F1B40+72512]
+	Ordinal0 [0x011F1AD9+72409]
+	Ordinal0 [0x012E8F37+1085239]
+	GetHandleVerifier [0x013ED7ED+503293]
+	GetHandleVerifier [0x013ED580+502672]
+	GetHandleVerifier [0x013F46AC+531644]
+	GetHandleVerifier [0x013EDFFA+505354]
+	Ordinal0 [0x012E0606+1050118]
+	Ordinal0 [0x012E047F+1049727]
+	Ordinal0 [0x012EAF9B+1093531]
+	Ordinal0 [0x012EB103+1093891]
+	Ordinal0 [0x012EA095+1089685]
+	BaseThreadInitThunk [0x75E10419+25]
+	RtlGetAppContainerNamedObjectPath [0x77E8662D+237]
+	RtlGetAppContainerNamedObjectPath [0x77E865FD+189]
+
+Command duration or timeout: 77.15 seconds
+	at com.selenium.setup.SelTestCase.setUp(SelTestCase.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1820221482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1820221482'><pre>org.testng.SkipException: Skipping test case due to following error : org.openqa.selenium.WebDriverException: unknown error: Devtools port number file contents &lt;58783&gt; were in an unexpected format
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;LPF1K68SH&apos;, ip: &apos;10.52.74.95&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0134EB13+1501971]
+	Ordinal0 [0x012CF6D1+980689]
+	Ordinal0 [0x0125765F+489055]
+	Ordinal0 [0x011EEACA+60106]
+	Ordinal0 [0x011EBC53+48211]
+	Ordinal0 [0x01209800+169984]
+	Ordinal0 [0x0120942D+169005]
+	Ordinal0 [0x012078EB+162027]
+	Ordinal0 [0x011F0AC7+68295]
+	Ordinal0 [0x011F1B40+72512]
+	Ordinal0 [0x011F1AD9+72409]
+	Ordinal0 [0x012E8F37+1085239]
+	GetHandleVerifier [0x013ED7ED+503293]
+	GetHandleVerifier [0x013ED580+502672]
+	GetHandleVerifier [0x013F46AC+531644]
+	GetHandleVerifier [0x013EDFFA+505354]
+	Ordinal0 [0x012E0606+1050118]
+	Ordinal0 [0x012E047F+1049727]
+	Ordinal0 [0x012EAF9B+1093531]
+	Ordinal0 [0x012EB103+1093891]
+	Ordinal0 [0x012EA095+1089685]
+	BaseThreadInitThunk [0x75E10419+25]
+	RtlGetAppContainerNamedObjectPath [0x77E8662D+237]
+	RtlGetAppContainerNamedObjectPath [0x77E865FD+189]
+
+Command duration or timeout: 77.15 seconds
+	at com.selenium.setup.SelTestCase.setUp(SelTestCase.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.selenium.web.test.ipro.Ipro@27a8c74e</td></tr>
+<tr>
+<td title='com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2()'><b>test01_Ipro_Epro_OES_2</b><br>Test class: com.selenium.web.test.ipro.Ipro<br/>
+<a href="#Output-1071460859" onClick='toggleBox("Output-1071460859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1071460859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1071460859">
+Execute test case test01_Ipro_Epro_OES_2---------<p><br/>
+Signing in to application | ---------<p><br/>
+Login Email : Automation---------<p><br/>
+Wait for element to be visible on web page: By.id: BrokerID---------<p><br/>
+Element : By.id: BrokerID Found !!!---------<p><br/>
+Typing value : Automation---------<p><br/>
+Typing value : 123456---------<p><br/>
+Click : By.xpath: //*[@value='Login']---------<p><br/>
+Element : By.xpath: //*[@value='Login'] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[@value='Login']---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+Confirming successful login by verifying Homepage URL Text---------<p><br/>
+Verify following text in URL : home.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/home.asp?brokerID=23514619&brokerIDHash=679291544---------<p><br/>
+URL verified | ---------<p><br/>
+Clicking individuals from top Menu---------<p><br/>
+Click : By.xpath: //*[contains(text(),'Individuals')] ---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Individuals')]  Found !!!---------<p><br/>
+Wait for element to be visible : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Confirming URL Text of quote and enroll page---------<p><br/>
+Verify following text in URL : qiprom1/ifp/home/xo/home.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/ifp/home/xo/home.asp?brokerID=23514619&brokerIDhash=679291544&iProSubmenuMode=2---------<p><br/>
+URL verified | ---------<p><br/>
+Waiting for add new individual contact link to be appear---------<p><br/>
+Wait for element to be visible : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Clicking createnew contact link and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element : By.xpath: //*[contains(text(),'Add New Individual Contact')] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[contains(text(),'Add New Individual Contact')]---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying URL Text for create new individual contact page---------<p><br/>
+Verify following text in URL : qiprom1/ifp/contacts/new.asp?brokerID=---------<p><br/>
+actual URL : https://wwwint.quotit.net/qiprom1/ifp/contacts/new.asp?brokerID=23514619&brokerIDhash=679291544&iProSubmenuMode=2---------<p><br/>
+URL verified | ---------<p><br/>
+verifying page title text on Create New Individual Contact---------<p><br/>
+Wait for element to be visible on web page: Create New Individual Contact---------<p><br/>
+Text : Create New Individual Contact Found !!!---------<p><br/>
+Inserting first name---------<p><br/>
+Typing value : prashant---------<p><br/>
+Element : By.name: applicantFirstName Found !!!---------<p><br/>
+Element : By.name: applicantFirstName Found !!!---------<p><br/>
+value in input box :prashant---------<p><br/>
+Inserting last name---------<p><br/>
+Typing value : wadhwa---------<p><br/>
+Element : By.name: applicantLastName Found !!!---------<p><br/>
+Element : By.name: applicantLastName Found !!!---------<p><br/>
+value in input box :wadhwa---------<p><br/>
+Inserting zip code---------<p><br/>
+Typing value : 92618---------<p><br/>
+Element : By.name: zipCode Found !!!---------<p><br/>
+Element : By.name: zipCode Found !!!---------<p><br/>
+value in input box :92618---------<p><br/>
+Inserting DOB---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Typing value : 01011981---------<p><br/>
+Element : By.id: txtDoB-0 Found !!!---------<p><br/>
+value in input box :________---------<p><br/>
+Value doesn't match. Trying again ---------<p><br/>
+Clicking createnew contact button and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //em[contains(text(),'Create Contact')]---------<p><br/>
+Element : By.xpath: //em[contains(text(),'Create Contact')] Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //em[contains(text(),'Create Contact')]---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying page title text on Create Info---------<p><br/>
+Wait for element to be visible on web page: Contact Info---------<p><br/>
+Text : Contact Info Found !!!---------<p><br/>
+Clicking New Proposal button and waiting for it to dissappear---------<p><br/>
+Click : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::*---------<p><br/>
+Element : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::* Found !!!---------<p><br/>
+Waiting for element not present : By.xpath: //*[@id="Header1__ifpSelectedLinks"]/child::*---------<p><br/>
+Element Disappeared !!!---------<p><br/>
+verifying page title text on Create Proposal---------<p><br/>
+Wait for element to be visible on web page: Create Proposal---------<p><br/>
+Text : Create Proposal Found !!!---------<p><br/>
+checking on Health Off-Exchange checkbox---------<p><br/>
+Click : By.xpath: (//*[contains(text(),"Health Off-Exchange")])[2]/preceding-sibling::td/child::*---------<p><br/>
+Element : By.xpath: (//*[contains(text(),"Health Off-Exchange")])[2]/preceding-sibling::td/child::* Found !!!---------<p><br/>
+Clicking New Proposal button and waiting for it to dissappear---------<p><br/>
+Click : By.id: submitButton---------<p><br/>
+Element : By.id: submitButton Found !!!---------<p><br/>
+Waiting for element not present : By.id: submitButton---------<p><br/>
+Trying to click again !!---------<p><br/>
+Is following element Visible : By.id: submitButton---------<p><br/>
+clickUsingJavaScript: By.id: submitButton---------<p><br/>
+Element : By.id: submitButton Found !!!---------<p><br/>
+Waiting for element not present : By.id: submitButton---------<p><br/>
+Trying to click again !!---------<p><br/>
+running retry logic for  'test01_Ipro_Epro_OES_2' on class com.selenium.util.RetryAnalyzer<br/>
+test01_Ipro_Epro_OES_2 skipped!---------<p><br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: Issue : Element By.id: submitButton still displayed. It must get disappear after click !!!
+	at com.selenium.util.actiondriver.WebActionDriver.clickAndWaitForElementToDisappear(WebActionDriver.java:748)
+	at com.selenium.web.page.ipro.CreateProposal.chooseProductTypeAndClickShowPlans(CreateProposal.java:42)
+	at com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2(Ipro.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1071460859", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1071460859'><pre>java.lang.Exception: Issue : Element By.id: submitButton still displayed. It must get disappear after click !!!
+	at com.selenium.util.actiondriver.WebActionDriver.clickAndWaitForElementToDisappear(WebActionDriver.java:748)
+	at com.selenium.web.page.ipro.CreateProposal.chooseProductTypeAndClickShowPlans(CreateProposal.java:42)
+	at com.selenium.web.test.ipro.Ipro.test01_Ipro_Epro_OES_2(Ipro.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:41)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:443)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:67)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>98</td>
+<td>com.selenium.web.test.ipro.Ipro@4d50efb8</td></tr>
+</table><p>
+</body>
+</html>
